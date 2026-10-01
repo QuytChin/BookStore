@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="420" viewBox="0 0 300 420">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6a214d"/><stop offset="1" stop-color="#ee7aa8"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="300" height="420" rx="22" fill="url(#g)"/>
+  <path d="M0 340C70 290 120 375 198 323c42-28 69-26 102-7v104H0z" fill="#fff" opacity=".08"/>
+  <g transform="translate(220 100)" fill="#ffd6e7" opacity=".8"><circle r="18"/><circle cx="0" cy="-32" r="22"/><circle cx="28" cy="-8" r="22"/><circle cx="18" cy="25" r="22"/><circle cx="-18" cy="25" r="22"/><circle cx="-28" cy="-8" r="22"/></g>
+  <text x="28" y="45" fill="#fff" opacity=".74" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2">BOOKSTORE • 24110171</text>
+  <text x="28" y="205" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="29" font-weight="800" filter="url(#shadow)"><tspan x="28" dy="0">Thơ Tình Xuân</tspan><tspan x="28" dy="38">Diệu</tspan></text>
+  <rect x="28" y="329" width="52" height="4" rx="2" fill="#fff" opacity=".75"/>
+  <text x="28" y="360" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="600">Xuân Diệu</text>
+  <text x="28" y="388" fill="#fff" opacity=".72" font-family="Segoe UI,Arial,sans-serif" font-size="12">Văn học Việt Nam</text>
+</svg>

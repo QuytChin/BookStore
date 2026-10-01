@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+    <!-- Cấu hình theo mẫu BaiTapJPA01: SiteMesh 3 dùng decorator-prefix + include -->
+    <decorator-prefix>/WEB-INF/decorators/</decorator-prefix>
+    <dispatch-mode>include</dispatch-mode>
+
+    <!-- Admin dùng decorator riêng -->
+    <mapping path="/admin/*" decorator="admin.jsp" />
+
+    <!-- Các trang còn lại dùng giao diện User -->
+    <mapping path="/*" decorator="user.jsp" />
+
+    <!-- Không decorate tài nguyên tĩnh -->
+    <mapping path="/assets/*" exclude="true" />
+</sitemesh>

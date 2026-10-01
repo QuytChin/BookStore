@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="420" viewBox="0 0 300 420">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1e293b"/><stop offset="1" stop-color="#475569"/></linearGradient></defs>
+<rect width="300" height="420" rx="22" fill="url(#g)"/><rect x="48" y="78" width="204" height="264" rx="12" fill="#fff" opacity=".08"/><path d="M94 133h112M94 160h86M94 187h102" stroke="#fff" stroke-width="7" opacity=".65" stroke-linecap="round"/><text x="150" y="275" text-anchor="middle" fill="#fff" font-family="Segoe UI,Arial" font-size="28" font-weight="800">BOOKSTORE</text><text x="150" y="305" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI,Arial" font-size="14">24110171</text></svg>
